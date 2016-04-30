@@ -1,0 +1,19 @@
+[{
+    "id": "<uuid>",
+    "name": "<name>",
+    "places_total": "<rsvp_limit",
+    "places_reserved": "<yes_rsvp_count>",
+    "time": "<time>",
+    "utc_offset": "<utc_offset>",
+    "description": "<description>",
+    "banner": "<link_to_banner>",
+    "link": "<link>",
+    "venue": {
+        "name": "<OK.ru>",
+        "lat": "<lat>",
+        "lon": "<lon>",
+        "address": "<address_1>",
+        "city": "<city>",
+        "country": "<localized_country_name>"
+    }
+}]

@@ -1,0 +1,56 @@
+[
+  {
+    "name": "Workshop: A glimpse into TypeScript",
+    "places_total": 40,
+    "places_reserved": 33,
+    "time": 1462003200000,
+    "utc_offset": 10800000,
+    "description": "During this workshop we'll try out TypeScript: a promising technology that brings the power of strict typing into JavaScript. This session will include a brief introduction and a walkthrough of all the main features of TS followed by a practical workshop where we'll set up a simpl[...]",
+    "banner": "http://photos4.meetupstatic.com/photos/event/a/9/8/600_448322712.jpeg",
+    "link": "http://www.meetup.com/GDG-Riga/events/229931648/",
+    "venue": {
+      "name": "Scandiweb Office",
+      "lat": 56.964874267578125,
+      "lon": 24.13107681274414,
+      "address": "Aristida Briāna iela 9",
+      "city": "Rīga",
+      "country": "Latvia"
+    }
+  },
+  {
+    "name": "Hackathon: Angular Attack",
+    "places_total": 25,
+    "places_reserved": 5,
+    "time": 1463212800000,
+    "utc_offset": 10800000,
+    "description": "What is Angular Attack? Angular Attack is an online hackathon organized by the Angular community and sponsored by Google. Team up to a team of 4 to build the best app you can, using Angular JS in over a 48 hours and compete with others peers around the globe. After you submit the [...]",
+    "banner": "http://photos4.meetupstatic.com/photos/event/6/1/a/1/600_449124993.jpeg",
+    "link": "http://www.meetup.com/GDG-Riga/events/230512674/",
+    "venue": {
+      "name": "C.T.Co Office",
+      "lat": 56.90666580200195,
+      "lon": 24.147781372070312,
+      "address": "Meistaru iela 33, Valdlauči",
+      "city": "Riga",
+      "country": "Latvia"
+    }
+  },
+  {
+    "name": "Google I/O 2016 Extended",
+    "places_total": 0,
+    "places_reserved": 49,
+    "time": 1463587200000,
+    "utc_offset": 10800000,
+    "description": "Join us at Google I/O Extended, watch a Google I/O Keynote life stream, discuss the news and eat some snacks in the process. Friendly and Googly atmosphere guaranteed!Some wild guessed on big announcements: Android N, Android Wear, Android Auto, Project Ara, Self-driving cars, Google Chrome, Smart home, Virtual reality, Project Fi.https://events.goo[...]",
+    "banner": "http://eastworks.co.uk/wp-content/uploads/2014/06/Google-io-blue-banner.jpg",
+    "link": "http://www.meetup.com/GDG-Riga/events/229718235/",
+    "venue": {
+      "name": "OK.ru Office",
+      "lat": 56.94881820678711,
+      "lon": 24.214414596557617,
+      "address": "Pblc Biznesa Centrs , SIA - 23 Ulbrokas iela",
+      "city": "Riga",
+      "country": "Latvia"
+    }
+  }
+]
