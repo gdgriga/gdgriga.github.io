@@ -11,6 +11,9 @@ var endpoints = {
   meetup: {
     upcoming: '//api.meetup.com/GDG-Riga/events?status=upcoming&fields=plain_text_description&omit=description',
     info: '//api.meetup.com/GDG-Riga?photo-host=public&sig_id=201794305&fields=plain_text_description&only=plain_text_description%2Cname&sig=48dcf296356ef34c77d6f6d43fdff416219c280f'
+  },
+  gdgx: {
+    archive: '//hub.gdgx.io/api/v1/chapters/105327287996815830446/events'
   }
 };
 
@@ -98,6 +101,49 @@ program.command('dinfo')
 
       fs.writeFileSync(storage.info, JSON.stringify(toWrite, null, 2));
       console.log(chalk.white.bgGreen.bold('Upcoming events dumpled! Check %s and make necessary edits.'), storage.info);
+    });
+  });
+
+program.command('darchive-raw')
+  .description('Dump raw archive from GDG[X]')
+  .action(() => {
+    fetch(endpoints.gdgx.archive)
+    .then(response => {
+      if (response.status >= 400) {
+        throw new Error("Bad response from server");
+      }
+
+      return response.json();
+    })
+    .then(archive => {
+      var toWrite = archive.items.map(item => {
+        return {
+          name: item.title,
+          participants: (item.participants || 0),
+          time: Date.parse(item.start),
+          utc_offset: 10800000,
+          description: item.about.replace(/(\r\n|\n|\r)/gm,"").substring(0, 351) + '[...]',
+          banner: '',
+          link: item.eventUrl,
+          venue: {
+            name: '',
+            lat: item.geo.lat,
+            lon: item.geo.lng,
+            address: item.location,
+            city: '',
+            country: ''
+          }
+        }
+      });
+
+      toWrite.sort(function(a, b) {
+        return parseFloat(b.time) - parseFloat(a.time);
+      });
+
+      var fileName = './_tmp.archive.json';
+      fs.writeFileSync(fileName, JSON.stringify(toWrite, null, 2));
+      console.log(chalk.white.bgGreen.bold('Archive dumped! Check %s and make necessary edits.'), fileName);
+
     });
   });
 

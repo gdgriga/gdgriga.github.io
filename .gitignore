@@ -11,3 +11,6 @@ node_modules/
 
 # Jekyll
 _site/
+
+# Temporary files
+_tmp*
