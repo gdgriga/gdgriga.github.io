@@ -1,19 +1,393 @@
-[{
-    "id": "<uuid>",
-    "name": "<name>",
-    "places_total": "<rsvp_limit",
-    "places_reserved": "<yes_rsvp_count>",
-    "time": "<time>",
-    "utc_offset": "<utc_offset>",
-    "description": "<description>",
-    "banner": "<link_to_banner>",
-    "link": "<link>",
+[
+  {
+    "name": "Workshop: A glimpse into TypeScript",
+    "participants": 16,
+    "time": 1462003200000,
+    "utc_offset": 10800000,
+    "description": "During this workshop we'll try out TypeScript: a promising technology that brings the power of strict typing into JavaScript. This session will include a brief introduction and a walkthrough of all the main features of TS followed by a practical workshop where we'll set up a simple frontend project. Since we're actually going to write cod[...]",
+    "banner": "/storage/banners/2016-04-30_workshop--typescript.png",
+    "link": "https://plus.google.com/events/crhonlqqaug6hjmoie1ojgn5kq0",
     "venue": {
-        "name": "<OK.ru>",
-        "lat": "<lat>",
-        "lon": "<lon>",
-        "address": "<address_1>",
-        "city": "<city>",
-        "country": "<localized_country_name>"
+      "name": "Scandiweb Office",
+      "lat": 56.9648733,
+      "lon": 24.1310773,
+      "address": "9 Aristida Briāna iela",
+      "city": "Riga",
+      "country": "Latvia"
     }
-}]
+  },
+  {
+    "name": "Workshop: Create a terminal chat application in Go",
+    "participants": 30,
+    "time": 1458378000000,
+    "utc_offset": 10800000,
+    "description": "The workshop aims to focus on the language’s key features. During the event we are going to write a simple chat program consisting of a number of views representing a list of currently active users, the main chat history area and the text input box. The application will use the master-slave architecture where a master node receiving a portion of dat[...]",
+    "banner": "/storage/banners/2016-03-19_workshop--go.png",
+    "link": "https://plus.google.com/u/0/b/105327287996815830446/events/ciens9lse3e7qc1kbgmoc20nab0",
+    "venue": {
+      "name": "Scandiweb Office",
+      "lat": 56.9639117,
+      "lon": 24.1303638,
+      "address": "9 Aristida Briāna iela",
+      "city": "Riga",
+      "country": "Latvia"
+    }
+  },
+  {
+    "name": "Workshop: Introduction to RxJS 5 in Angular 2 @ OK.ru",
+    "participants": 15,
+    "time": 1457168400000,
+    "utc_offset": 10800000,
+    "description": "Angular 2 introduces a new Data Architecture based on Reactive Programming. RxJS 5 is a rewrite of Reactive Extensions focused on performance and usability. We are really excited to see the new approach using streams. We will cover a basic introduction to streams and RxJS 5 covering HTTP and Async Pipes.[...]",
+    "banner": "/storage/banners/2016-03-05_workshop--rxjs-with-angular",
+    "link": "https://plus.google.com/b/105327287996815830446/events/crdurl1audeoitf60oj5ae5dfg4",
+    "venue": {
+      "name": "OK.ru Office",
+      "lat": 56.9493199,
+      "lon": 24.2194599,
+      "address": "Pblc Biznesa Centrs, Ulbrokas iela",
+      "city": "Riga",
+      "country": "Latvia"
+    }
+  },
+  {
+    "name": "#HashCode 2016 with GDG Riga and OK.ru",
+    "participants": 27,
+    "time": 1455210000000,
+    "utc_offset": 10800000,
+    "description": "#HashCode is not an event alone, it’s a challenge! Do what it takes and compete with thousands of students and developers around the globe in trying to solve a complex, but fascinating real life problem. Work in a team of 2-4 students or IT professionals, ge[...]",
+    "banner": "/storage/banners/2016-02-11_hashcode2016",
+    "link": "https://plus.google.com/events/cevbqs77ab32jtceqs2kdr8ukto?authkey=CPGRjY7Xo5eGiwE",
+    "venue": {
+      "name": "OK.ru Office",
+      "lat": 56.9493199,
+      "lon": 24.2194599,
+      "address": "Pblc Biznesa Centrs, Ulbrokas iela",
+      "city": "Riga",
+      "country": "Latvia"
+    }
+  },
+  {
+    "name": "Workshop: Working with Google Maps on Android",
+    "participants": 15,
+    "time": 1453539600000,
+    "utc_offset": 10800000,
+    "description": "If you are in need of a map integration within your app, then, most likely, you will try to use Google Maps.  This workshop will try to explain usages and advantages of Google Maps and try to give a head start into the API. During the workshop, hosted by Valentine Paramonov, we will develop a[...]",
+    "banner": "/storage/banners/2016-01-23_workshop--google-maps.png",
+    "link": "https://plus.google.com/b/105327287996815830446/events/cavas4lb874ofuggpskt5ajc2r0",
+    "venue": {
+      "name": "Techhub Riga",
+      "lat": 56.9485199,
+      "lon": 24.1082399,
+      "address": "Techhub Riga, Kaļķu iela",
+      "city": "Riga",
+      "country": "Latvia"
+    }
+  },
+  {
+    "name": "Writing web server on Go and breathing easily",
+    "participants": 20,
+    "time": 1450519200000,
+    "utc_offset": 10800000,
+    "description": "We are happy to announce our next event! Maxim Sidorenko and Sergey Kibish will gently introduce you to Go language. They will guide you through moments of misunderstanding. You will feel again, that you can program and be calm, happy without losing a breath. During workshop you will write a web server which will be [...]",
+    "banner": "/storage/banners/2015-12-19_workshop--go",
+    "link": "https://plus.google.com/events/cult7fkbooaotuoot1skhof3e4g",
+    "venue": {
+      "name": "Techhub Riga",
+      "lat": 56.9485199,
+      "lon": 24.1082399,
+      "address": "Techhub Riga, Kaļķu iela",
+      "city": "Riga",
+      "country": "Latvia"
+    }
+  },
+  {
+    "name": "GDG Riga Meetup: Make you Project Stand Out!",
+    "participants": 25,
+    "time": 1448557200000,
+    "utc_offset": 10800000,
+    "description": "It's been a while since our last meetup, but we are finally back from vacation! And this time we will try something a bit different. Every developer is a craftsmanship, but to be really succesful in addition to making wonders, you need to learn to have a silver tongue and know the tools and concepts of the market. We are honoured to [...]",
+    "banner": "/storage/banners/2015-11-26_make-project-stand-out.jpg",
+    "link": "https://plus.google.com/events/cj962j17bddd68flkdsr2l1ufps",
+    "venue": {
+      "name": "Mercure Riga Centre Hotel",
+      "lat": 56.9475249,
+      "lon": 24.1238844,
+      "address": "101 Elizabetes iela",
+      "city": "Riga",
+      "country": "Latvia"
+    }
+  },
+  {
+    "name": "Hackhathon: Getting started with AngularJS",
+    "participants": 26,
+    "time": 1437202800000,
+    "utc_offset": 10800000,
+    "description": "Finally after one and a half year after GDG Riga founding we're finally hosting an AngularJS event by Pavels Jelisejevs. During the course of this event, we will set up an AngularJS project and learn the basics of NG development. After an introductory section we'll hack in pairs on our own version[...]",
+    "banner": "/storage/banners/2015-07-18_workshop--angularjs.png",
+    "link": "https://plus.google.com/events/c6fd55g1ajqv8df6ardqpbjcvd4",
+    "venue": {
+      "name": "Techhub Riga",
+      "lat": 56.9485199,
+      "lon": 24.1082399,
+      "address": "Techhub Riga, Kaļķu iela",
+      "city": "Riga",
+      "country": "Latvia"
+    }
+  },
+  {
+    "name": "GDG Riga: JUG Vilnius visit",
+    "participants": 30,
+    "time": 1434643200000,
+    "utc_offset": 10800000,
+    "description": "Title: Can You Trust Your Tests?<br /><br />Speakers: Vaidas Pilkauskas &amp; Tadas Ščerbinskas. Description: Nobody argues these days that unit tests are useful and provide valuable feedback about your code. But who watches the watchmen? Let's talk about test code quality, code coverage and introduce mutation based testing techniques. [...]",
+    "banner": "/storage/banners/2015-06-15_vilnius-jug.png",
+    "link": "https://plus.google.com/events/c3a3n8qhb6ralaa6q4v9a36e9jg",
+    "venue": {
+      "name": "Mercure Riga Centre Hotel",
+      "lat": 56.9475249,
+      "lon": 24.1238844,
+      "address": "101 Elizabetes iela",
+      "city": "Riga",
+      "country": "Latvia"
+    }
+  },
+  {
+    "name": "Google I/O Extended 2015: Riga",
+    "participants": 50,
+    "time": 1432828800000,
+    "utc_offset": 10800000,
+    "description": "Join us at Google I/O Extended, watch a Keynote life stream, discuss the news and eat some snacks in the process. Friendly and Googly atmosphere guaranteed! [...]",
+    "banner": "/storage/banners/2015-05-28_google-io-extended.png",
+    "link": "https://plus.google.com/events/cj88vc5f2vdkdlh14k6meiv0fdg",
+    "venue": {
+      "name": "OK.ru Office",
+      "lat": 56.9493199,
+      "lon": 24.2194599,
+      "address": "Pblc Biznesa Centrs, Ulbrokas iela",
+      "city": "Riga",
+      "country": "Latvia"
+    }
+  },
+  {
+    "name": "GDG Riga One Year Anniversary",
+    "participants": 30,
+    "time": 1424365200000,
+    "utc_offset": 10800000,
+    "description": "Celebration of one year! [...]",
+    "banner": "/storage/banners/2015-03-26_one-year-anniversary",
+    "link": "https://plus.google.com/events/crr1heettqok9sk68skd92b92bk",
+    "venue": {
+      "name": "Tallink Hotel Riga",
+      "lat": 56.9475249,
+      "lon": 24.1238844,
+      "address": "24 Elizabetes iela",
+      "city": "Riga",
+      "country": "Latvia"
+    }
+  },
+  {
+    "name": "GDG Riga Meetup #01",
+    "participants": 30,
+    "time": 1424365200000,
+    "utc_offset": 10800000,
+    "description": "Riga Dev Day has been a blast, but now we are back on track with monthly meetups. This time it will be a bit more official then usual: two great speakers, a cozy hotel and some late evening coffee.[...]",
+    "banner": "/storage/banners/2015-02-19_gdgriga-meetup-1.jpg",
+    "link": "https://plus.google.com/events/cjs0mhmpceni2qv58b0iigbr1tk",
+    "venue": {
+      "name": "Mercure Riga Centre Hotel",
+      "lat": 56.948700,
+      "lon": 24.122877,
+      "address": "101 Elizabetes iela",
+      "city": "Riga",
+      "country": "Latvia"
+    }
+  },
+  {
+    "name": "Java User Group: Android/GDG edition",
+    "participants": 50,
+    "time": 1418317200000,
+    "utc_offset": 10800000,
+    "description": "The event will feature 2 talks about Mobile: #1 Build Your Own Cross-platform Tool in Java by Alexey Buzdin. Writing cross-platform apps is always though. You spend ages to find a right tool for you or your company and then struggle to fix all the bugs and production issues in your app. Or you go with a Write Once[...]",
+    "banner": "/storage/banners/2014-12-11_jug-mobile.jpg",
+    "link": "https://plus.google.com/events/ciu7rb41sc497gpur7rog1r1mfk",
+    "venue": {
+      "name": "Tallink Hotel Riga",
+      "lat": 56.9488287,
+      "lon": 24.1225942,
+      "address": "24 Elizabetes iela",
+      "city": "Riga",
+      "country": "Latvia"
+    }
+  },
+  {
+    "name": "AndEngine: Android 2D OpenGL Game Engine",
+    "participants": 20,
+    "time": 1417248000000,
+    "utc_offset": 10800000,
+    "description": "If you ever dreamt of making mobile games, but wasn't sure where to start, now is your chance.[...]",
+    "banner": "/storage/banners/2014-11-29_andengine.png",
+    "link": "https://plus.google.com/events/ctl6f1pv0jus6r7m422s0p4mhio",
+    "venue": {
+      "name": "Lampa",
+      "lat": 56.96409809999999,
+      "lon": 24.138127,
+      "address": "8 Cēsu iela",
+      "city": "Riga",
+      "country": "Latvia"
+    }
+  },
+  {
+    "name": "iOS Workshop: Objective-C & SpriteKit",
+    "participants": 20,
+    "time": 1412406000000,
+    "utc_offset": 10800000,
+    "description": "If you've always wanted to get into iOS development, but didn't know where to start, this is your chance. [...]",
+    "banner": "/storage/banners/2014-10-04_ios.png",
+    "link": "https://plus.google.com/events/c77lnmdnee8fh95apfjema7lfh4",
+    "venue": {
+      "name": "Lampa",
+      "lat": 56.9646005,
+      "lon": 24.1388465,
+      "address": "Cēsu iela",
+      "city": "Riga",
+      "country": "Latvia"
+    }
+  },
+  {
+    "name": "GDG Riga Workshop: Elixir",
+    "participants": 20,
+    "time": 1410591600000,
+    "utc_offset": 10800000,
+    "description": "Robustness of Erlang and elegance of Clojure, united in one language: that's Elixir. A functional, concurrent, and extensible programming language built atop BEAM, the Erlang virtual machine. [...]",
+    "banner": "/storage/banners/2014-09-13_workshop--elixir.png",
+    "link": "https://plus.google.com/events/cju4fggtpcmjr1o65o9nbb2dq30",
+    "venue": {
+      "name": "Ok.ru Office",
+      "lat": 56.9488181,
+      "lon": 24.214414,
+      "address": "Pblc Biznesa Centrs, Ulbrokas iela",
+      "city": "Riga",
+      "country": "Latvia"
+    }
+  },
+  {
+    "name": "Workshop: Microsoft Azure Mobile Services",
+    "participants": 15,
+    "time": 1408172400000,
+    "utc_offset": 10800000,
+    "description": "Want to add cloud backend in a minutes? We will learn how to use node.js in power with other could PaaS tools on Windows Azure platform to speed up development and say goodbye to server side configuration hassle (in easy scenarios). How to create single sign on with Active Directory, Facebook, Twitter, Google with just couple lines of code[...]",
+    "banner": "/storage/banners/2014-08-16_workshop--azure.png",
+    "link": "https://plus.google.com/events/c9lokjaf8i7mk9utq0r1m5dtq6k",
+    "venue": {
+      "name": "Microsoft Office",
+      "lat": 56.9589671,
+      "lon": 24.1142719,
+      "address": "1 Zaļā iela",
+      "city": "Riga",
+      "country": "Latvia"
+    }
+  },
+  {
+    "name": "Hacklang Workshop @Riga",
+    "participants": 15,
+    "time": 1405152000000,
+    "utc_offset": 10800000,
+    "description": "At this event we'll explore a new programming language from Facebook called Hack. Hack is based on PHP, but adds type annotations, generics, some null safety, async functions and other cool features. The task is to run a sample PHP program with Hack and then gradually refactor with new Hack features. At this time, only Vim and E[...]",
+    "banner": "/storage/banners/2014-07-12_workshop--hacklang.png",
+    "link": "https://plus.google.com/events/cv8rtf625f5hc8jn6qmhpsb2nho",
+    "venue": {
+      "name": "",
+      "lat": 56.9086552,
+      "lon": 24.0832065,
+      "address": "109 Vienības gatve",
+      "city": "Riga",
+      "country": "Latvia"
+    }
+  },
+  {
+    "name": "Google I/O Extended: Conference Retrospective @Riga",
+    "participants": 35,
+    "time": 1404403200000,
+    "utc_offset": 10800000,
+    "description": "Brought to you by GDG Riga, Google I/O Extended lets you experience the fun of Google I/O remotely. At this event we will take a look at all the new and shiny technologies from Google, such as Material Design, Android L and more. If you want to prepare yourself for the future, attendance is a must. [...]",
+    "banner": "/storage/banners/2014-07-03_google-io-retrospective.png",
+    "link": "https://plus.google.com/events/c7nhk1oc5pm6f5jejf9r22ddkv0",
+    "venue": {
+      "name": "",
+      "lat": 56.9086552,
+      "lon": 24.0832065,
+      "address": "109 Vienības gatve",
+      "city": "Riga",
+      "country": "Latvia"
+    }
+  },
+  {
+    "name": "GDG Riga Coderetreat",
+    "participants": 20,
+    "time": 1402729200000,
+    "utc_offset": 10800000,
+    "description": "Coderetreat is a day-long, intensive practice event, focusing on the fundamentals of software development and design. By providing developers the opportunity to take part in focused practice, away from the pressures of 'getting things done', the Coderetreat format has proven itself to be a highly effective means of skill improvement. Practicing the [...]",
+    "banner": "/storage/banners/2014-06-14_coderetreat.png",
+    "link": "https://plus.google.com/events/ci9emmuqr2e6qm1puhnsgeql4fk",
+    "venue": {
+      "name": "Microsoft Office",
+      "lat": 56.9589671,
+      "lon": 24.1142719,
+      "address": "1 Zaļā iela",
+      "city": "Riga",
+      "country": "Latvia"
+    }
+  },
+  {
+    "name": "Hackathon: Chrome Extensions",
+    "participants": 12,
+    "time": 1400324400000,
+    "utc_offset": 10800000,
+    "description": "Do you want more control over your Chrome browser or Chromebook? Chrome Extensions make it possible. During the course of this event, we will set up a Chrome extension project and learn the basics of Chrome development. After an introductory section we'll hack in pairs on our own versions of a themed extension and finish off wit[...]",
+    "banner": "/storage/banners/2014-05-17_workshop--chrome-extensions.png",
+    "link": "https://plus.google.com/events/c8oakin5rufg8qgv15bd1mhv50s",
+    "venue": {
+      "name": "Lampa",
+      "lat": 56.96409809999999,
+      "lon": 24.138127,
+      "address": "8 Cēsu iela",
+      "city": "Riga",
+      "country": "Latvia"
+    }
+  },
+  {
+    "name": "GDG Riga: Androidify Yourself!",
+    "participants": 25,
+    "time": 1397890800000,
+    "utc_offset": 10800000,
+    "description": "Haven’t looked into Android yet or just want to have some fun?  Join us on 'Androidify Yourself'! During the event, we will take an overview of Android development and work with multiple Android APIs. To have a laugh, we will be creating a cool avatar generation app, with audio and social network integration. It is a great opportunity for [...]",
+    "banner": "/storage/banners/2014-04-19_workshop--androidify.jpg",
+    "link": "https://plus.google.com/events/c3umaelcg97c7kp9ug2a9ealocs",
+    "venue": {
+      "name": "Tallink Hotel Riga",
+      "lat": 56.95573,
+      "lon": 24.1151999,
+      "address": "24 Elizabetes iela",
+      "city": "Riga",
+      "country": "Latvia"
+    }
+  },
+  {
+    "name": "Dart Flight School Riga",
+    "participants": 20,
+    "time": 1395477000000,
+    "utc_offset": 10800000,
+    "description": "Dart helps you build modern web apps with a new language, core libraries, and tools such as a package manager, editor, and a compiler to JavaScript. Use Angular with Dart for extra jet fuel. <br/><br/><br /><br />Dart hit 1.0 and is now Flight Ready! Developer communities around the world are hosting Dart Flight School events. Learn Dart and Angular[...]",
+    "banner": "/storage/banners/2014-03-22_dart-flight-school.png",
+    "link": "https://plus.google.com/b/105327287996815830446/events/codlfftmfhjmlnji4tqjtqhe71o",
+    "venue": {
+      "name": "Tallink Hotel Riga",
+      "lat": 56.95573,
+      "lon": 24.1151999,
+      "address": "24 Elizabetes iela",
+      "city": "Riga",
+      "country": "Latvia"
+    }
+  }
+]
