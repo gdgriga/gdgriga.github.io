@@ -39,7 +39,7 @@
     "time": 1457168400000,
     "utc_offset": 10800000,
     "description": "Angular 2 introduces a new Data Architecture based on Reactive Programming. RxJS 5 is a rewrite of Reactive Extensions focused on performance and usability. We are really excited to see the new approach using streams. We will cover a basic introduction to streams and RxJS 5 covering HTTP and Async Pipes.[...]",
-    "banner": "/storage/banners/2016-03-05_workshop--rxjs-with-angular",
+    "banner": "/storage/banners/2016-03-05_workshop--rxjs-with-angular.jpg",
     "link": "https://plus.google.com/b/105327287996815830446/events/crdurl1audeoitf60oj5ae5dfg4",
     "venue": {
       "name": "OK.ru Office",
@@ -56,7 +56,7 @@
     "time": 1455210000000,
     "utc_offset": 10800000,
     "description": "#HashCode is not an event alone, it’s a challenge! Do what it takes and compete with thousands of students and developers around the globe in trying to solve a complex, but fascinating real life problem. Work in a team of 2-4 students or IT professionals, ge[...]",
-    "banner": "/storage/banners/2016-02-11_hashcode2016",
+    "banner": "/storage/banners/2016-02-11_hashcode2016.png",
     "link": "https://plus.google.com/events/cevbqs77ab32jtceqs2kdr8ukto?authkey=CPGRjY7Xo5eGiwE",
     "venue": {
       "name": "OK.ru Office",
@@ -90,7 +90,7 @@
     "time": 1450519200000,
     "utc_offset": 10800000,
     "description": "We are happy to announce our next event! Maxim Sidorenko and Sergey Kibish will gently introduce you to Go language. They will guide you through moments of misunderstanding. You will feel again, that you can program and be calm, happy without losing a breath. During workshop you will write a web server which will be [...]",
-    "banner": "/storage/banners/2015-12-19_workshop--go",
+    "banner": "/storage/banners/2015-12-19_workshop--go.jpg",
     "link": "https://plus.google.com/events/cult7fkbooaotuoot1skhof3e4g",
     "venue": {
       "name": "Techhub Riga",
@@ -140,7 +140,7 @@
     "participants": 30,
     "time": 1434643200000,
     "utc_offset": 10800000,
-    "description": "Title: Can You Trust Your Tests?<br /><br />Speakers: Vaidas Pilkauskas &amp; Tadas Ščerbinskas. Description: Nobody argues these days that unit tests are useful and provide valuable feedback about your code. But who watches the watchmen? Let's talk about test code quality, code coverage and introduce mutation based testing techniques. [...]",
+    "description": "Title: Can You Trust Your Tests? Speakers: Vaidas Pilkauskas &amp; Tadas Ščerbinskas. Description: Nobody argues these days that unit tests are useful and provide valuable feedback about your code. But who watches the watchmen? Let's talk about test code quality, code coverage and introduce mutation based testing techniques. [...]",
     "banner": "/storage/banners/2015-06-15_vilnius-jug.png",
     "link": "https://plus.google.com/events/c3a3n8qhb6ralaa6q4v9a36e9jg",
     "venue": {
@@ -175,7 +175,7 @@
     "time": 1424365200000,
     "utc_offset": 10800000,
     "description": "Celebration of one year! [...]",
-    "banner": "/storage/banners/2015-03-26_one-year-anniversary",
+    "banner": "/storage/banners/2015-03-26_one-year-anniversary.jpg",
     "link": "https://plus.google.com/events/crr1heettqok9sk68skd92b92bk",
     "venue": {
       "name": "Tallink Hotel Riga",
@@ -378,7 +378,7 @@
     "participants": 20,
     "time": 1395477000000,
     "utc_offset": 10800000,
-    "description": "Dart helps you build modern web apps with a new language, core libraries, and tools such as a package manager, editor, and a compiler to JavaScript. Use Angular with Dart for extra jet fuel. <br/><br/><br /><br />Dart hit 1.0 and is now Flight Ready! Developer communities around the world are hosting Dart Flight School events. Learn Dart and Angular[...]",
+    "description": "Dart helps you build modern web apps with a new language, core libraries, and tools such as a package manager, editor, and a compiler to JavaScript. Use Angular with Dart for extra jet fuel. Dart hit 1.0 and is now Flight Ready! Developer communities around the world are hosting Dart Flight School events. Learn Dart and Angular[...]",
     "banner": "/storage/banners/2014-03-22_dart-flight-school.png",
     "link": "https://plus.google.com/b/105327287996815830446/events/codlfftmfhjmlnji4tqjtqhe71o",
     "venue": {
