@@ -91,7 +91,6 @@ program.command('dinfo')
       return response.json();
     })
     .then(info => {
-          console.log('herrreee');
       var toWrite  = JSON.parse(fs.readFileSync(storage.info, 'utf8'));
       console.log(toWrite);
       toWrite = Object.assign(toWrite, {
