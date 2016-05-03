@@ -28,9 +28,9 @@ Also, because Github Pages use [Jekyll](https://github.com/jekyll/jekyll) engine
 $ docker-comupose up -d
 ```
 
-*Note! If something is not working as expected. just `cp -r site _site`*
-
 After that, website will be available at `<docker-machine-ip>:4000`.
+
+*Note! If something is not working as expected. just `cp -r site _site`*
 
 ## Structure
 ```
