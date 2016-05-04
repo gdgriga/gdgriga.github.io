@@ -51,6 +51,18 @@ After that, website will be available at `<docker-machine-ip>:4000`.
 Tool is a thing that can be used to help fetch data about events and main info. Go to the project folder and type:
 ```sh
 $ ./tool --help
-```
 
-This command will show you list and the description of the available commands.
+  Usage: tool [options] [command]
+
+
+  Commands:
+
+    dupc [options]    Dump upcoming events
+    dinfo [options]   Dump info about group
+    darchive-raw      Dump raw archive from GDG[X]
+
+  Options:
+
+    -h, --help     output usage information
+    -V, --version  output the version number
+```
