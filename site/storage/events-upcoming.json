@@ -1,38 +1,13 @@
 [
   {
-    "name": "Hackathon: Angular Attack",
-    "places_total": 25,
+    "name": "Workshop: League of Graphs",
+    "places_total": 40,
     "places_reserved": 5,
-    "time": 1463212800000,
+    "time": 1469908800000,
     "utc_offset": 10800000,
-    "description": "What is Angular Attack? Angular Attack is an online hackathon organized by the Angular community and sponsored by Google. Team up to a team of 4 to build the best app you can, using Angular JS in over a 48 hours and compete with others peers around the globe. After you submit the [...]",
-    "banner": "http://photos4.meetupstatic.com/photos/event/6/1/a/1/600_449124993.jpeg",
-    "link": "http://www.meetup.com/GDG-Riga/events/230512674/",
-    "venue": {
-      "name": "C.T.Co Office",
-      "lat": 56.90666580200195,
-      "lon": 24.147781372070312,
-      "address": "Meistaru iela 33, Valdlauči",
-      "city": "Riga",
-      "country": "Latvia"
-    }
-  },
-  {
-    "name": "Google I/O 2016 Extended",
-    "places_total": 0,
-    "places_reserved": 49,
-    "time": 1463587200000,
-    "utc_offset": 10800000,
-    "description": "Join us at Google I/O Extended, watch a Google I/O Keynote life stream, discuss the news and eat some snacks in the process. Friendly and Googly atmosphere guaranteed!Some wild guessed on big announcements: Android N, Android Wear, Android Auto, Project Ara, Self-driving cars, Google Chrome, Smart home, Virtual reality, Project Fi.https://events.goo[...]",
-    "banner": "http://eastworks.co.uk/wp-content/uploads/2014/06/Google-io-blue-banner.jpg",
-    "link": "http://www.meetup.com/GDG-Riga/events/229718235/",
-    "venue": {
-      "name": "OK.ru Office",
-      "lat": 56.94881820678711,
-      "lon": 24.214414596557617,
-      "address": "Pblc Biznesa Centrs , SIA - 23 Ulbrokas iela",
-      "city": "Riga",
-      "country": "Latvia"
-    }
+    "description": "In this show-and-tell session we’ll find out how Neo4j can make us a professional League of Legends player. First, we’ll import game data into a Neo4j graph. Then we will push the limits of Cypher to uncover hidden secrets that lie in the depth of LoL. Which champions perform best as allies?• What is the most effective strategy to advance your cham[...]",
+    "banner": "",
+    "link": "http://www.meetup.com/GDG-Riga/events/231769488/",
+    "venue": {}
   }
 ]

@@ -55,14 +55,20 @@ program.command('dupc')
             description: storie.plain_text_description.replace(/(\r\n|\n|\r)/gm,"").substring(0, 351) + '[...]',
             banner: '',
             link: storie.link,
-            venue: {
-              name: storie.venue.name,
-              lat: storie.venue.lat,
-              lon: storie.venue.lon,
-              address: storie.venue.address_1,
-              city: storie.venue.city,
-              country: storie.venue.localized_country_name
-            }
+            venue: (function(storie) {
+              if (storie.hasOwnProperty('venue')) {
+                return {
+                  name: storie.venue.name,
+                  lat: storie.venue.lat,
+                  lon: storie.venue.lon,
+                  address: storie.venue.address_1,
+                  city: storie.venue.city,
+                  country: storie.venue.localized_country_name
+                };
+              } else {
+                return {};
+              }
+            })(storie)
           }
         });
 

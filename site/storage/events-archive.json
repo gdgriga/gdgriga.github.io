@@ -1,5 +1,56 @@
 [
   {
+    "name": "Workshop: Dockerization",
+    "participants": 25,
+    "time": 1467446400000,
+    "utc_offset": 10800000,
+    "description": "This one you really do not want to miss. During this workshop all of you will have one common goal. Only together you will make an application successfully up and running. [...]",
+    "banner": "/storage/banners/2016-07-02_workshop--dockerization.png",
+    "link": "https://plus.google.com/events/cg0v9e0ksd6gjh7tkvfv5gbkmj0",
+    "venue": {
+      "name": "Scandiweb Office",
+      "lat": 56.9648733,
+      "lon": 24.1310773,
+      "address": "9 Aristida Briāna iela",
+      "city": "Riga",
+      "country": "Latvia"
+    }
+  },
+  {
+    "name": "I/O Extended 2016 Retrospective",
+    "participants": 35,
+    "time": 1464202800000,
+    "utc_offset": 10800000,
+    "description": "On this event we will have a retrospective of all the news during I/O event. We will show something, that was only on the backstage. Also come and grab some swag ;) Join us!",
+    "banner": "/storage/banners/2016-05-25_google-io-retrospective.png",
+    "link": "https://plus.google.com/events/c201famfkeg1f14q3vlhth2h8jg",
+    "venue": {
+      "name": "OK.ru Office",
+      "lat": 56.9493199,
+      "lon": 24.2194599,
+      "address": "Pblc Biznesa Centrs, Ulbrokas iela",
+      "city": "Riga",
+      "country": "Latvia"
+    }
+  },
+  {
+    "name": "I/O Extended 2016 Riga",
+    "participants": 35,
+    "time": 1463587200000,
+    "utc_offset": 10800000,
+    "description": "Join us at Google I/O Extended, watch a Google I/O Keynote life stream, discuss the news and eat some snacks in the process. Friendly and Googly atmosphere guaranteed! Some wild guessed on big announcements: Android N, Android Wear, Android Auto, Project Ara, Self-driving cars, Google Chrome, Smart home, Virtual reality, Project Fi. [...]",
+    "banner": "/storage/banners/2016-05-18_google-io-extended.png",
+    "link": "https://plus.google.com/events/cuakimvi8o0bu03kpu95u4aatg0",
+    "venue": {
+      "name": "OK.ru Office",
+      "lat": 56.9493199,
+      "lon": 24.2194599,
+      "address": "Pblc Biznesa Centrs, Ulbrokas iela",
+      "city": "Riga",
+      "country": "Latvia"
+    }
+  },
+  {
     "name": "Workshop: A glimpse into TypeScript",
     "participants": 16,
     "time": 1462003200000,
