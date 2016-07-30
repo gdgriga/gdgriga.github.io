@@ -1,7 +1,7 @@
 import React from 'react';
 import EventList from './EventList.jsx';
 
-class UpcomingEventsBox extends React.Component {
+class EventsBox extends React.Component {
   constructor(props) {
     super(props);
 
@@ -19,11 +19,11 @@ class UpcomingEventsBox extends React.Component {
 
   render() {
     return (
-      <div className="upcoming-events">
+      <div className="events-box">
         <EventList events={this.state.data} />
       </div>
     );
   }
 }
 
-export default UpcomingEventsBox;
+export default EventsBox;

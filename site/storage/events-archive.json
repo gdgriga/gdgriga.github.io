@@ -56,7 +56,7 @@
     "time": 1462003200000,
     "utc_offset": 10800000,
     "description": "During this workshop we'll try out TypeScript: a promising technology that brings the power of strict typing into JavaScript. This session will include a brief introduction and a walkthrough of all the main features of TS followed by a practical workshop where we'll set up a simple frontend project. Since we're actually going to write cod[...]",
-    "banner": "/storage/banners/2016-04-30_workshop--typescript.png",
+    "banner": "/storage/banners/2016-04-30_workshop--typescript.jpg",
     "link": "https://plus.google.com/events/crhonlqqaug6hjmoie1ojgn5kq0",
     "venue": {
       "name": "Scandiweb Office",
@@ -73,7 +73,7 @@
     "time": 1458378000000,
     "utc_offset": 10800000,
     "description": "The workshop aims to focus on the language’s key features. During the event we are going to write a simple chat program consisting of a number of views representing a list of currently active users, the main chat history area and the text input box. The application will use the master-slave architecture where a master node receiving a portion of dat[...]",
-    "banner": "/storage/banners/2016-03-19_workshop--go.png",
+    "banner": "/storage/banners/2016-03-19_workshop--go.jpg",
     "link": "https://plus.google.com/u/0/b/105327287996815830446/events/ciens9lse3e7qc1kbgmoc20nab0",
     "venue": {
       "name": "Scandiweb Office",
@@ -107,7 +107,7 @@
     "time": 1455210000000,
     "utc_offset": 10800000,
     "description": "#HashCode is not an event alone, it’s a challenge! Do what it takes and compete with thousands of students and developers around the globe in trying to solve a complex, but fascinating real life problem. Work in a team of 2-4 students or IT professionals, ge[...]",
-    "banner": "/storage/banners/2016-02-11_hashcode2016.png",
+    "banner": "/storage/banners/2016-02-11_hashcode2016.jpg",
     "link": "https://plus.google.com/events/cevbqs77ab32jtceqs2kdr8ukto?authkey=CPGRjY7Xo5eGiwE",
     "venue": {
       "name": "OK.ru Office",
@@ -124,7 +124,7 @@
     "time": 1453539600000,
     "utc_offset": 10800000,
     "description": "If you are in need of a map integration within your app, then, most likely, you will try to use Google Maps.  This workshop will try to explain usages and advantages of Google Maps and try to give a head start into the API. During the workshop, hosted by Valentine Paramonov, we will develop a[...]",
-    "banner": "/storage/banners/2016-01-23_workshop--google-maps.png",
+    "banner": "/storage/banners/2016-01-23_workshop--google-maps.jpg",
     "link": "https://plus.google.com/b/105327287996815830446/events/cavas4lb874ofuggpskt5ajc2r0",
     "venue": {
       "name": "Techhub Riga",
