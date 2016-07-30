@@ -3,7 +3,7 @@ import React from 'react';
 class HeadLine extends React.Component {
   render() {
     return (
-      <div className="mdl-grid mdl-grid--no-spacing">
+      <div className="mdl-grid mdl-grid--no-spacing" id={this.props.id}>
         <section className="headline mdl-cell mdl-cell--12-col mdl-color--light-blue">
           <div className="mdl-typography--display-1 mdl-color-text--grey-50">
             {this.props.title}
