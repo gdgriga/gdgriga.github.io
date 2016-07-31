@@ -5,6 +5,7 @@ import Drawer from './Drawer.jsx';
 import TopBannerBox from './TopBannerBox.jsx';
 import HeadLine from './HeadLine.jsx';
 import SocialBox from './SocialBox.jsx';
+import About from './About.jsx';
 
 class App extends React.Component {
   constructor(props) {
@@ -40,6 +41,7 @@ class App extends React.Component {
             <TopBannerBox title={this.state.main.title_long} description={this.state.main.description} />
           </div>
           <HeadLine title="About us" id="about-us" />
+          <About title={this.state.main.title_short} description={this.state.main.description} />
           <HeadLine title="Follow us" id="follow-us" />
           <SocialBox
             facebookUrl={this.state.social.facebook}
