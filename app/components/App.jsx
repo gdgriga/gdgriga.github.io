@@ -4,6 +4,7 @@ import HeaderBox from './HeaderBox.jsx';
 import Drawer from './Drawer.jsx';
 import TopBannerBox from './TopBannerBox.jsx';
 import HeadLine from './HeadLine.jsx';
+import SocialBox from './SocialBox.jsx';
 
 class App extends React.Component {
   constructor(props) {
@@ -26,6 +27,7 @@ class App extends React.Component {
     let menuLinks = [
       {name: "About us", href: "#about-us"},
       {name: "Upcoming events", href: "#upcoming-events"},
+      {name: "Follow us", href: "#follow-us"},
       {name: "Past events", href: "#past-events"},
     ];
 
@@ -38,6 +40,11 @@ class App extends React.Component {
             <TopBannerBox title={this.state.main.title_long} description={this.state.main.description} />
           </div>
           <HeadLine title="About us" id="about-us" />
+          <HeadLine title="Follow us" id="follow-us" />
+          <SocialBox
+            facebookUrl={this.state.social.facebook}
+            twitterUrl={this.state.social.twitter}
+            gPlusUrl={this.state.social.googlePlus} />
           <HeadLine title="Upcoming events" id="upcoming-events" />
           <EventsBox url="/storage/events-upcoming.json" />
 

@@ -11,9 +11,9 @@ class SocialBox extends React.Component {
               <p className="mdl-typography--headline mdl-typography--font-thin">Be ready for something new</p>
           </div>
           <div className="mdl-cell mdl-cell--5-col mdl-typography--text-center">
-            <a className="social-link" href={this.props.facebookUrl} target="_blank"><i className="fa fa-facebook-official fa-fw fa-5x"></i></a>
-            <a className="social-link" href={this.props.twitterUrl} target="_blank"><i className="fa fa-twitter fa-fw fa-5x"></i></a>
-            <a className="social-link" href={this.props.gPlusUrl} target="_blank"><i className="fa fa-google-plus fa-fw fa-5x"></i></a>
+            <a className="social-link" href={this.props.facebookUrl} target="_blank"><i className="mdi mdi-facebook-box"></i></a>
+            <a className="social-link" href={this.props.twitterUrl} target="_blank"><i className="mdi mdi-twitter-box"></i></a>
+            <a className="social-link" href={this.props.gPlusUrl} target="_blank"><i className="mdi mdi-google-plus-box"></i></a>
           </div>
         </div>
       </div>

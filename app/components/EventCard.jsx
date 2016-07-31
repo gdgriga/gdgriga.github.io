@@ -13,7 +13,7 @@ class EventCard extends React.Component {
     return (
       <div className="mdl-cell mdl-card mdl-shadow--4dp mdl-cell--4-col mdl-cell--12-col-tablet">
         <div className="mdl-card__media">
-          <img className="card-image" src={this.props.banner} border="0" alt="" />
+          <img className="card-image" src={this.props.banner} alt={this.props.name} />
         </div>
         <div className="mdl-card__title">
           <h2 className="mdl-card__title-text">{this.props.name}</h2>
