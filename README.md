@@ -25,12 +25,10 @@ To build javascript files you have following commands:
 
 Also, because Github Pages use [Jekyll](https://github.com/jekyll/jekyll) engine, `docker-compose.yml` file is supplied to run the project like in production. If you are using Mac or Windows, install [Docker Toolbox](https://www.docker.com/products/docker-toolbox) and follow the instructions. Then go to the project folder and type:
 ```sh
-$ docker-comupose up -d
+$ docker-compose up -d
 ```
 
 After that, website will be available at `<docker-machine-ip>:4000`.
-
-*Note! If something is not working as expected. just `cp -r site _site`*
 
 ## Structure
 ```
