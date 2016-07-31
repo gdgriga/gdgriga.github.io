@@ -1,5 +1,6 @@
 import React from 'react';
 import EventList from './EventList.jsx';
+import fetch from 'isomorphic-fetch';
 
 class EventsBox extends React.Component {
   constructor(props) {

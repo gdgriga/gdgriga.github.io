@@ -1,5 +1,6 @@
 import React from 'react';
 import EventList from './EventList.jsx';
+import fetch from 'isomorphic-fetch';
 
 class ArchivedEventsBox extends React.Component {
   constructor(props) {

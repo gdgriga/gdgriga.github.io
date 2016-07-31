@@ -3,8 +3,6 @@ import EventCard from './EventCard.jsx';
 
 class EventList extends React.Component {
   render() {
-    let l = this.props.events.length;
-
     let eventNodes = this.props.events.map(event => {
       return (
         <EventCard
