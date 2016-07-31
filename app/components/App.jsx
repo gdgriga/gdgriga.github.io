@@ -1,8 +1,8 @@
 import React from 'react';
 import EventsBox from './EventsBox.jsx';
 import HeaderBox from './HeaderBox.jsx';
+import Drawer from './Drawer.jsx';
 import TopBannerBox from './TopBannerBox.jsx';
-import SocialBox from './SocialBox.jsx';
 import HeadLine from './HeadLine.jsx';
 
 class App extends React.Component {
@@ -22,13 +22,17 @@ class App extends React.Component {
   }
 
   render() {
+
+    let menuLinks = [
+      {name: "About us", href: "#about-us"},
+      {name: "Upcoming events", href: "#upcoming-events"},
+      {name: "Past events", href: "#past-events"},
+    ];
+
     return (
-      <div class="mdl-layout mdl-js-layout">
-        <HeaderBox title={this.state.main.title_short} links={[
-          {name: "About us", href: "#about-us"},
-          {name: "Upcoming events", href: "#upcoming-events"},
-          {name: "Past events", href: "#past-events"},
-        ]} />
+      <div className="mdl-layout mdl-js-layout">
+        <HeaderBox title={this.state.main.title_short} links={menuLinks} />
+        <Drawer title={this.state.main.title_short} links={menuLinks} />
         <main className="mdl-layout__content">
           <div className="mdl-grid mdl-grid--no-spacing">
             <TopBannerBox title={this.state.main.title_long} description={this.state.main.description} />

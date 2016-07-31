@@ -3,12 +3,12 @@ import React from 'react';
 class EventCard extends React.Component {
 
   render () {
-    let monthNames = [
-      "January", "February", "March",
-      "April", "May", "June", "July",
-      "August", "September", "October",
-      "November", "December"
-    ];
+    // let monthNames = [
+    //   "January", "February", "March",
+    //   "April", "May", "June", "July",
+    //   "August", "September", "October",
+    //   "November", "December"
+    // ];
 
     return (
       <div className="mdl-cell mdl-card mdl-shadow--4dp mdl-cell--4-col mdl-cell--12-col-tablet">
