@@ -1,8 +1,9 @@
 version: '2'
 services:
   web:
-    image: jekyll/jekyll
+    image: grahamc/jekyll
     ports:
       - 4000:4000
     volumes:
-      - .:/srv/jekyll
+      - .:/src
+    command: serve -H 0.0.0.0
