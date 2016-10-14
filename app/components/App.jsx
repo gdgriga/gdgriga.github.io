@@ -48,10 +48,11 @@ class App extends React.Component {
             twitterUrl={this.state.social.twitter}
             gPlusUrl={this.state.social.googlePlus} />
           <HeadLine title="Upcoming events" id="upcoming-events" />
-          <EventsBox url="/storage/events-upcoming.json" />
+          // TODO: pass events as props
+          <EventsBox url="/storage/events.json" />
 
           <HeadLine title="Past events" id="past-events" />
-          <EventsBox url="/storage/events-archive.json" />
+          <EventsBox url="/storage/events.json" />
         </main>
       </div>
     );

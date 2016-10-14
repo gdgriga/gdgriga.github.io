@@ -1,6 +1,7 @@
 import React from 'react';
 import EventList from './EventList.jsx';
-import fetch from 'isomorphic-fetch';
+import EventsFetcher from '../services/fetcher/EventsFetcher.js';
+import FileResolver from '../services/fetcher/FileResolver.js';
 
 class EventsBox extends React.Component {
   constructor(props) {
@@ -11,9 +12,10 @@ class EventsBox extends React.Component {
   }
 
   componentDidMount() {
-    fetch(this.props.url)
-    .then(response => response.json())
-    .then(events => {
+    // TODO: Split upcoming and past events by time
+    let loader = new EventsFetcher(new FileResolver(this.props.url));
+
+    loader.fetch().then(events => {
       this.setState({data: events});
     });
   }
