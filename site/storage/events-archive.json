@@ -1,5 +1,73 @@
 [
   {
+    "name": "GDG Riga Meetup:  Digital Marketing: Tool to Reach your Users!",
+    "participants": 30,
+    "time": 1475078400000,
+    "utc_offset": 10800000,
+    "description": "Agenda for the Meetup: Jānis Birģelis, Data Team Leader at Infinitum8 will present \"Plan and Measure your Product Ahead with Digital Marketing\".  The talk will focus on how to think about complex marketing/content/mea[...]",
+    "banner": "/storage/banners/2016-09-28_reach-your-users.jpg",
+    "link": "http://www.meetup.com/GDG-Riga/events/234103344/",
+    "venue": {
+      "name": "DigiJourney Office",
+      "lat": 56.9496487,
+      "lon": 24.1051864,
+      "address": "Aspazijas bulvāris 30-8 (3.floor), Riga",
+      "city": "Riga",
+      "country": "Latvia"
+    }
+  },
+  {
+    "name": "GDG Meetup: Optimizing your Product",
+    "participants": 23,
+    "time": 1473350400000,
+    "utc_offset": 10800000,
+    "description": "We're back with our Meetup format: two talks from two awesome speakers!  This time we are visiting OK.ru with two talks on optimizing their products both on the backend and mobile.  - First one from Vit[...]",
+    "banner": "/storage/banners/2016-09-08_optimize-your-product.jpg",
+    "link": "http://www.meetup.com/GDG-Riga/events/233244280/",
+    "venue": {
+      "name": "OK.ru Office",
+      "lat": 56.9488181,
+      "lon": 24.214414,
+      "address": "Pblc Biznesa Centrs , SIA - 23 Ulbrokas iela, Riga",
+      "city": "Riga",
+      "country": "Latvia"
+    }
+  },
+  {
+    "name": "Workshop: Firebase - rule all platforms",
+    "participants": 20,
+    "time": 1472281200000,
+    "utc_offset": 10800000,
+    "description": "During this workshop you will explore possibilities of the Firebase in following platforms: iOS, Android and Web (JS). So, if you are one of these - come to the workshop, bring your teammates and let's hack together![...]",
+    "banner": "/storage/banners/2016-08-27_workhop-firebase.jpg",
+    "link": "http://www.meetup.com/GDG-Riga/events/233373763/",
+    "venue": {
+      "name": "Accenture",
+      "lat": 56.96597749999999,
+      "lon": 24.1440482,
+      "address": "Brīvības iela, Riga, Latvia",
+      "city": "Riga",
+      "country": "Latvia"
+    }
+  },
+  {
+    "name": "Workshop: League of Graphs",
+    "participants": 20,
+    "time": 1469865600000,
+    "utc_offset": 10800000,
+    "description": "In this show-and-tell session we’ll find out how Neo4 can make us a professionalLeague of Legend player. First, we’ll import game data into a Neo4j graph. Then we will push the limits of Cypher to uncover hidden secrets that lie in the depth of LoL. • Which champions perform best as allies? [...]",
+    "banner": "/storage/banners/2016-07-30_workhop-league-of-graphs.jpg",
+    "link": "https://plus.google.com/events/cinth4qoksl2cst6kfc7dgok7s8",
+    "venue": {
+      "name": "",
+      "lat": 56.9086552,
+      "lon": 24.0832065,
+      "address": "UNITY Business Centre, Vienības gatve 109, Riga",
+      "city": "",
+      "country": ""
+    }
+  },
+  {
     "name": "Workshop: Dockerization",
     "participants": 25,
     "time": 1467446400000,
