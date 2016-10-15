@@ -3,7 +3,6 @@
 // All sourceResolvers should have fetch() method that return promise
 class EventsFetcher {
   constructor(sourceResolver) {
-    console.log(sourceResolver)
     this.sourceResolver = sourceResolver;
   }
 
