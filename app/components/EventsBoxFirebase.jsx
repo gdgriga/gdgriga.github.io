@@ -29,7 +29,7 @@ class EventsBoxFirebase extends React.Component {
     ref.once('value').then(function(snapshot) {
       let events = snapshot.val();
       if (events) {
-        self.setState({data: Object.values(events)});
+        self.setState({data: Object.values(events).reverse()});
       }
     });
   }
