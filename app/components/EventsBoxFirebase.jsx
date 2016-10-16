@@ -18,7 +18,7 @@ class EventsBoxFirebase extends React.Component {
     let self = this;
 
     var now = (new Date()).getTime();
-    var ref = firebase.database().ref('events-upcoming').orderByChild("time");
+    var ref = firebase.database().ref('events').orderByChild("time");
 
     if (this.props.type === 'upcoming-events') {
       ref = ref.startAt(now);
