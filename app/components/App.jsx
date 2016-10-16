@@ -40,19 +40,21 @@ class App extends React.Component {
           <div className="mdl-grid mdl-grid--no-spacing">
             <TopBannerBox title={this.state.main.title_long} description={this.state.main.description} />
           </div>
+
           <HeadLine title="About us" id="about-us" />
           <About title={this.state.main.title_short} description={this.state.main.description} />
+
           <HeadLine title="Follow us" id="follow-us" />
           <SocialBox
             facebookUrl={this.state.social.facebook}
             twitterUrl={this.state.social.twitter}
             gPlusUrl={this.state.social.googlePlus} />
+
           <HeadLine title="Upcoming events" id="upcoming-events" />
-          // TODO: pass events as props
-          <EventsBox url="/storage/events.json" />
+          <EventsBox source="firebase" type="upcoming-events"/>
 
           <HeadLine title="Past events" id="past-events" />
-          <EventsBox url="/storage/events.json" />
+          <EventsBox source="firebase" type="past-events"/>
         </main>
       </div>
     );
