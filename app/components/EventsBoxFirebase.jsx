@@ -20,16 +20,19 @@ class EventsBoxFirebase extends React.Component {
     var now = (new Date()).getTime();
     var ref = firebase.database().ref('events').orderByChild("time");
 
-    if (this.props.type === 'upcoming-events') {
-      ref = ref.startAt(now);
-    } else if (this.props.type === 'past-events') {
-      ref = ref.endAt(now);
-    }
-
     ref.once('value').then(function(snapshot) {
       let events = snapshot.val();
+
       if (events) {
-        self.setState({data: Object.values(events).reverse()});
+
+        if (self.props.type === 'upcoming-events') {
+          events = Object.values(events).filter(event => event.time >= now);
+
+        } else if (self.props.type === 'past-events') {
+          events = Object.values(events).filter(event => event.time <= now);
+        }
+
+        self.setState({data: events.reverse()});
       }
     });
   }
