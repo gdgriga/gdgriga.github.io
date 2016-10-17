@@ -1,6 +1,20 @@
 import React from 'react';
 import EventCard from './EventCard.jsx';
 
+/**
+ * Shortens string and adds "..." at the end
+ * @param  {string} text   Original string
+ * @param  {length} length Length of string to leave
+ * @return {string}        Shortened string
+ */
+function shorten(text, length) {
+  if (text.length <= length) {
+    return text;
+  }
+
+  return text.substring(0, length) + "...";
+}
+
 class EventList extends React.Component {
   render() {
     if (this.props.events.length === 0) {
@@ -21,7 +35,7 @@ class EventList extends React.Component {
           key={event.event_url}
           banner={event.banner}
           name={event.name}
-          description={event.description_no_html||event.description}
+          description={shorten(event.description_no_html, 201)}
           link={event.event_url}
           time={event.time} />
       );
