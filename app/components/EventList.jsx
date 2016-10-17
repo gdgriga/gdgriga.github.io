@@ -8,6 +8,10 @@ import EventCard from './EventCard.jsx';
  * @return {string}        Shortened string
  */
 function shorten(text, length) {
+  if (text.length <= length) {
+    return text;
+  }
+
   return text.substring(0, length) + "...";
 }
 
