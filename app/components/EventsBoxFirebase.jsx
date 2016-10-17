@@ -32,7 +32,7 @@ class EventsBoxFirebase extends React.Component {
           events = Object.values(events).filter(event => event.time <= now);
         }
 
-        self.setState({data: events.reverse()});
+        self.setState({data: events.sort((a, b) => b.time - a.time)});
       }
     });
   }
