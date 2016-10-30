@@ -22,7 +22,8 @@
     "commander": "^2.9.0",
     "es6-promise": "^3.1.2",
     "firebase": "^3.5.0",
-    "isomorphic-fetch": "^2.2.1"
+    "isomorphic-fetch": "^2.2.1",
+    "odometer": "^0.4.7"
   },
   "devDependencies": {
     "babel-polyfill": "^6.7.4",

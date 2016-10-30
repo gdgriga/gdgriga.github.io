@@ -21,6 +21,8 @@ class App extends React.Component {
       social: {},
       events_upcoming: [],
       events_past: [],
+      events_rsvp_count: 0,
+      events_count: 0
     };
 
   }
@@ -47,11 +49,12 @@ class App extends React.Component {
           // ... and update state
           self.setState(Object.assign({}, self.state, {
             events_upcoming: Object.values(events).filter(event => event.time >= now).sort((a, b) => b.time - a.time),
-            events_past: Object.values(events).filter(event => event.time <= now).sort((a, b) => b.time - a.time)
+            events_past: Object.values(events).filter(event => event.time <= now).sort((a, b) => b.time - a.time),
+            events_rsvp_count: Object.values(events).reduce((accumulator, event) => accumulator + parseInt(event.yes_rsvp_count || event.participants || 0), 0),
+            events_count: Object.keys(events).length
           }));
         }
       });
-
     });
   }
 
@@ -61,7 +64,7 @@ class App extends React.Component {
       {name: "About us", href: "#about-us"},
       {name: "Upcoming events", href: "#upcoming-events"},
       {name: "Follow us", href: "#follow-us"},
-      {name: "Past events", href: "#past-events"},
+      {name: "Past events", href: "#past-events"}
     ];
 
     return (
@@ -70,7 +73,12 @@ class App extends React.Component {
         <Drawer title={this.state.main.title_short} links={menuLinks} />
         <main className="mdl-layout__content">
           <div className="mdl-grid mdl-grid--no-spacing">
-            <TopBannerBox title={this.state.main.title_long} description={this.state.main.description} />
+            <TopBannerBox
+                title={this.state.main.title_long}
+                description={this.state.main.description}
+                events_rsvp_count={this.state.events_rsvp_count}
+                events_count={this.state.events_count}
+            />
           </div>
 
           <HeadLine title="About us" id="about-us" />
