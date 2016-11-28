@@ -42,7 +42,7 @@ class EventList extends React.Component {
     });
 
     return (
-      <div className="mdl-grid">
+      <div className="mdl-grid maxwidth">
         {eventNodes}
       </div>
     );

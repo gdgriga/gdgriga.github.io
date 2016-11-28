@@ -6,6 +6,7 @@ import TopBannerBox from './TopBannerBox.jsx';
 import HeadLine from './HeadLine.jsx';
 import SocialBox from './SocialBox.jsx';
 import About from './About.jsx';
+import Footer from './Footer.jsx';
 import * as firebase from 'firebase';
 
 firebase.initializeApp({
@@ -63,7 +64,7 @@ class App extends React.Component {
     let menuLinks = [
       {name: "About us", href: "#about-us"},
       {name: "Upcoming events", href: "#upcoming-events"},
-      {name: "Follow us", href: "#follow-us"},
+      // {name: "Follow us", href: "#follow-us"},
       {name: "Past events", href: "#past-events"}
     ];
 
@@ -72,29 +73,20 @@ class App extends React.Component {
         <HeaderBox title={this.state.main.title_short} links={menuLinks} />
         <Drawer title={this.state.main.title_short} links={menuLinks} />
         <main className="mdl-layout__content">
-          <div className="mdl-grid mdl-grid--no-spacing">
             <TopBannerBox
                 title={this.state.main.title_long}
                 description={this.state.main.description}
                 events_rsvp_count={this.state.events_rsvp_count}
                 events_count={this.state.events_count}
+                id="about-us"
             />
-          </div>
-
-          <HeadLine title="About us" id="about-us" />
-          <About title={this.state.main.title_short} description={this.state.main.description} />
-
-          <HeadLine title="Follow us" id="follow-us" />
-          <SocialBox
-            facebookUrl={this.state.social.facebook}
-            twitterUrl={this.state.social.twitter}
-            gPlusUrl={this.state.social.googlePlus} />
 
           <HeadLine title="Upcoming events" id="upcoming-events" />
           <EventsBox events={this.state.events_upcoming} />
 
           <HeadLine title="Past events" id="past-events" />
           <EventsBox events={this.state.events_past} />
+          <Footer />
         </main>
       </div>
     );

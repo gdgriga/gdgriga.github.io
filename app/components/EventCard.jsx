@@ -11,7 +11,7 @@ class EventCard extends React.Component {
     // ];
 
     return (
-      <div className="mdl-cell mdl-card mdl-shadow--4dp mdl-cell--4-col mdl-cell--12-col-tablet">
+      <div className="mdl-cell mdl-cell--4-col mdl-card mdl-shadow--2dp">
         <div className="mdl-card__media">
           <img className="card-image" src={this.props.banner} alt={this.props.name} />
         </div>
@@ -20,7 +20,7 @@ class EventCard extends React.Component {
         </div>
         <div className="mdl-card__supporting-text">{this.props.description}</div>
         <div className="mdl-card__actions mdl-card--border">
-          <a className="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent" href={this.props.link} target="_blank" data-upgraded=",MaterialButton,MaterialRipple">More info<span className="mdl-button__ripple-container"><span className="mdl-ripple"></span></span></a>
+          <a className="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href={this.props.link} target="_blank">More info</a>
         </div>
       </div>
     );
