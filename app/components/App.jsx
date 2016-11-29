@@ -4,7 +4,6 @@ import HeaderBox from './HeaderBox.jsx';
 import Drawer from './Drawer.jsx';
 import TopBannerBox from './TopBannerBox.jsx';
 import HeadLine from './HeadLine.jsx';
-import SocialBox from './SocialBox.jsx';
 import About from './About.jsx';
 import Counter from './Counter.jsx';
 import Footer from './Footer.jsx';
@@ -86,11 +85,11 @@ class App extends React.Component {
           />
 
           <HeadLine title="Upcoming events" id="upcoming-events" />
-          <EventsBox events={this.state.events_upcoming} />
+          <EventsBox events={this.state.events_upcoming} social={this.state.social} />
 
           <HeadLine title="Past events" id="past-events" />
           <EventsBox events={this.state.events_past} />
-          <Footer />
+          <Footer social={this.state.social} />
         </main>
       </div>
     );

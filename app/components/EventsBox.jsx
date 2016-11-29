@@ -9,7 +9,7 @@ class EventsBox extends React.Component {
   render() {
     return (
       <div className="events-box">
-        <EventList events={this.props.events} />
+        <EventList events={this.props.events} social={this.props.social} />
       </div>
     );
   }
