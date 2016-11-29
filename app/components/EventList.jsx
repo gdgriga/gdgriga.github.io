@@ -21,7 +21,7 @@ class EventList extends React.Component {
       return (
         <div className="mdl-grid">
           <div className="mdl-layout-spacer"></div>
-          <h6>No events here for now. Please check again later.</h6>
+          <h6>We are preparing something special. Stay in tune.</h6>
           <div className="mdl-layout-spacer"></div>
         </div>
       );
