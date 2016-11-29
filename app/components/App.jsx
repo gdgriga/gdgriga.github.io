@@ -6,6 +6,7 @@ import TopBannerBox from './TopBannerBox.jsx';
 import HeadLine from './HeadLine.jsx';
 import SocialBox from './SocialBox.jsx';
 import About from './About.jsx';
+import Counter from './Counter.jsx';
 import Footer from './Footer.jsx';
 import * as firebase from 'firebase';
 
@@ -76,10 +77,13 @@ class App extends React.Component {
             <TopBannerBox
                 title={this.state.main.title_long}
                 description={this.state.main.description}
-                events_rsvp_count={this.state.events_rsvp_count}
-                events_count={this.state.events_count}
                 id="about-us"
             />
+
+          <Counter
+              events_rsvp_count={this.state.events_rsvp_count}
+              events_count={this.state.events_count}
+          />
 
           <HeadLine title="Upcoming events" id="upcoming-events" />
           <EventsBox events={this.state.events_upcoming} />
