@@ -11,7 +11,7 @@ class Footer extends React.Component {
             <li><a href="mailto:info@gdgriga.lv?Subject=Hi,%20GDGRiga!" target="_top">Contact us</a></li>
           </ul>
         </div>
-        <div class="mdl-layout-spacer"></div>
+        <div className="mdl-layout-spacer"></div>
         <div className="mdl-mini-footer__right-section">
           <SocialBox
             facebookUrl={this.props.social.facebook}

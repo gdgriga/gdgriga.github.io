@@ -67,7 +67,10 @@ class EventList extends React.Component {
 
     let el = document.createElement('div');
     el.innerHTML = event.description;
-    event.banner = el.getElementsByTagName("img")[0].src;
+    let img = el.getElementsByTagName("img")[0];
+    if (img) {
+      event.banner = img.src;
+    }
   }
 }
 
