@@ -70,6 +70,9 @@ class EventList extends React.Component {
     let img = el.getElementsByTagName("img")[0];
     if (img) {
       event.banner = img.src;
+    } else {
+      // get random banner from cool collection
+      event.banner = "https://source.unsplash.com/collection/145103/1600x900";
     }
   }
 }
