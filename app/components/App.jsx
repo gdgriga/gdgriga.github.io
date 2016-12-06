@@ -69,7 +69,7 @@ class App extends React.Component {
     ];
 
     return (
-      <div className="mdl-layout mdl-js-layout">
+      <div className="mdl-layout mdl-js-layout mdl-layout--fixed-header">
         <HeaderBox title={this.state.main.title_short} links={menuLinks} />
         <Drawer title={this.state.main.title_short} links={menuLinks} />
         <main className="mdl-layout__content">
