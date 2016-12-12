@@ -12,7 +12,7 @@ class Counter extends React.Component {
 
     return (
       <div className="mdl-grid maxwidth">
-          <div className="mdl-cell mdl-cell--4-col mdl-cell--2-offset">
+          <div className="mdl-cell mdl-cell--4-col mdl-cell--2-offset-desktop">
             <div className="mdl-card__title">
               <p className="mdl-card__title-text" style={letterStyle}>
                 <span className="odometer">{this.props.events_count}</span>&nbsp;events
