@@ -6,11 +6,8 @@ class TopBannerBox extends React.Component {
       <div className="mdl-grid maxwidth">
         <a name={this.props.id}></a>
         <div className="mdl-cell mdl-cell--12-col mdl-card mdl-shadow--2dp">
-          <div className="mdl-card__title">
-            <h2 className="mdl-card__title-text"><img src="/assets/images/gdg_icon.svg" height="30px;"/>{this.props.title}</h2>
-          </div>
           <div className="mdl-card__media">
-            <img className="card-image" src="http://photos1.meetupstatic.com/photos/theme_body/a/5/b/d/full_7062429.jpeg" alt=""/>
+            <img className="card-image" src="assets/images/gdg_riga.jpeg" alt=""/>
           </div>
 
           <div className="mdl-grid">
