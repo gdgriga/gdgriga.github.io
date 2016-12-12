@@ -11,7 +11,9 @@ class HeaderBox extends React.Component {
           <img src="/assets/images/gdg_icon.svg" height="30px;"/>
           <span className="mdl-layout-title">{this.props.title}</span>
           <div className="mdl-layout-spacer"></div>
-          <Navigation links={this.props.links} />
+          <div className="mdl-layout--large-screen-only">
+            <Navigation links={this.props.links} />
+          </div>
         </div>
       </header>
     );
