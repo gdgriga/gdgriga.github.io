@@ -1,0 +1,27 @@
+import React from 'react';
+import SocialBox from './SocialBox.jsx';
+
+class Footer extends React.Component {
+  render() {
+    return (
+      <footer className="mdl-mini-footer">
+        <div className="mdl-mini-footer__left-section">
+          <div className="mdl-logo">&copy; 2016 GDG Riga</div>
+          <ul className="mdl-mini-footer__link-list">
+            <li><a href="mailto:info@gdgriga.lv?Subject=Hi,%20GDGRiga!" target="_top">Contact us</a></li>
+          </ul>
+        </div>
+        <div className="mdl-layout-spacer"></div>
+        <div className="mdl-mini-footer__right-section">
+          <SocialBox
+            facebookUrl={this.props.social.facebook}
+            twitterUrl={this.props.social.twitter}
+            gPlusUrl={this.props.social.googlePlus}
+            color="white" />
+        </div>
+      </footer>
+    );
+  }
+}
+
+export default Footer;
