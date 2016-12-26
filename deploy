@@ -1,0 +1,35 @@
+#!/bin/bash -xe
+
+# NOTE: This deploy mechanism will use docker to do all the dirty job for you. So, make sure it's installed.
+# Also be sure, that you have **write** access to the repo
+
+REPO=git@github.com:gdgriga/gdgriga.github.io.git
+BUILD_DIR=/tmp/gdgrigalv-`date +%Y%m%d%H%M%S`
+
+# Install NPM files
+docker run \
+  --rm \
+  --volume `pwd`:/app \
+  --workdir /app \
+  node npm install
+
+# Compile files for production
+docker run \
+  --rm \
+  --volume `pwd`:/app \
+  --workdir /app \
+  node npm run build:prod
+
+# Clone project to BUILD_DIR
+git clone $REPO $BUILD_DIR
+
+# Add files to the build
+cp -vr site/* $BUILD_DIR
+
+# Deploy
+cd $BUILD_DIR
+git commit -am 'Deploy'
+git push
+
+# Clean working space
+rm -rf $BUILD_DIR

@@ -23,7 +23,7 @@ To build javascript files you have following commands:
  - `npm run build:dev` - to build dev version of js.
  - `npm run build:prod` - to build production ready version. **If you make changes to js files, run this command before committing changes.**
 
-Also, because Github Pages use [Jekyll](https://github.com/jekyll/jekyll) engine, `docker-compose.yml` file is supplied to run the project like in production. If you are using Mac or Windows, install [Docker Toolbox](https://www.docker.com/products/docker-toolbox) and follow the instructions. Then go to the project folder and type:
+Also, because Github Pages use [Jekyll](https://github.com/jekyll/jekyll) engine, `docker-compose.yml` file is supplied to run the project like in production. If you are using Mac or Windows, install [Docker Toolbox](https://www.docker.com/products/docker-toolbox) or Docker for Mac/Windows and follow the instructions. Then go to the project folder and type:
 ```sh
 $ docker-compose up -d
 ```
@@ -44,23 +44,6 @@ After that, website will be available at `<docker-machine-ip>:4000`.
 |- main.js                                 -- application entrypoint
 ```
 
-## Tool
+## Deploy
 
-Tool is a thing that can be used to help fetch data about events and main info. Go to the project folder and type:
-```sh
-$ ./tool --help
-
-  Usage: tool [options] [command]
-
-
-  Commands:
-
-    dupc [options]    Dump upcoming events
-    dinfo [options]   Dump info about group
-    darchive-raw      Dump raw archive from GDG[X]
-
-  Options:
-
-    -h, --help     output usage information
-    -V, --version  output the version number
-```
+Just run `./deploy` in the console. **Before that** be sure, that you have write access to `master` branch and `Docker` is running.
