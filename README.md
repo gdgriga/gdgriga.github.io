@@ -44,6 +44,7 @@ After that, website will be available at `<docker-machine-ip>:4000`.
 |- main.js                                 -- application entrypoint
 ```
 
+
 ## Deploy
 
 Just run `./deploy` in the console. **Before that** be sure, that you have write access to `master` branch and `Docker` is running.
